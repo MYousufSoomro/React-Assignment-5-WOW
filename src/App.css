@@ -1,0 +1,39 @@
+.nav-container {
+  display: inline-block;
+  flex-direction: column;
+}
+
+.logo-area img {
+  height: 30px;
+}
+
+.logo-area {
+  max-width: 20%;
+}
+
+.nav-links {
+  max-width: 60%;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  margin: 2px;
+  font-size: 25px;
+  list-style-type: none;
+}
+.cart-area {
+  max-width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.cart-area p {
+  margin: 2px;
+  font-size: 25px;
+}
